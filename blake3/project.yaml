@@ -1,4 +1,5 @@
-name: blake3
+name: 'blake3'
+version: '1.0'
 packages:
     blake3:
         cflags:
@@ -6,4 +7,4 @@ packages:
             - -DBLAKE3_NO_AVX512
             - -DBLAKE3_NO_SSE41
 plugins:
-    cest: "1.0"
+    cest: '1.0'
