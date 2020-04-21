@@ -1,1 +1,7 @@
-project_name: mongoose
+name: mongoose
+description: Mongoose embedded web server
+license: gplv2
+version: "6.16"
+packages:
+    mongoose:
+
