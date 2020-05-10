@@ -1,0 +1,10 @@
+name: "zeromq"
+description: "ZeroMQ core engine in C++"
+version: "4.3.2"
+packages:
+  zeromq:
+  sha1:
+pugins:
+  cest: "1.0"
+link_options:
+  libraries: ['pthread']
