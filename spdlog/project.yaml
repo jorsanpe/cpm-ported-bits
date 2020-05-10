@@ -1,0 +1,7 @@
+name: "spdlog"
+description: "Very fast, header only, C++ logging library"
+version: "1.5.0"
+packages:
+  spdlog:
+link_options:
+  libraries: ['pthread']
