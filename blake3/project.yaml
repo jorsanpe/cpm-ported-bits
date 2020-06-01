@@ -6,5 +6,5 @@ packages:
             - -DBLAKE3_NO_AVX2
             - -DBLAKE3_NO_AVX512
             - -DBLAKE3_NO_SSE41
-plugins:
+bits:
     cest: '1.0'

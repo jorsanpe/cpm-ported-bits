@@ -1,2 +1,2 @@
-# cpm-plugins
-An initial set of useful open source plugins for CPM ported from other projects
+# cpm-bits
+An initial set of useful open source bits for CPM ported from other projects

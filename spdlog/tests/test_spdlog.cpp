@@ -1,4 +1,5 @@
 #include <spdlog/spdlog.h>
+#include <spdlog/sinks/stdout_color_sinks.h>
 #include <cest/cest.h>
 
 using namespace cest;
