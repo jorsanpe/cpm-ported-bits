@@ -4,7 +4,7 @@ version: "4.3.2"
 packages:
   zeromq:
   sha1:
-pugins:
+test_bits:
   cest: "1.0"
 link_options:
   libraries: ['pthread']

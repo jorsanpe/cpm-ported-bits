@@ -6,4 +6,5 @@ packages:
     cflags: ['-DSPDLOG_COMPILED_LIB']
 link_options:
   libraries: ['pthread']
-
+test_bits:
+  cest: '1.0'
