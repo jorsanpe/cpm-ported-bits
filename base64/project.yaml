@@ -3,3 +3,5 @@ description: 'Base64 encoding/decoding library'
 version: '1.0'
 packages:
   base64:
+test_bits:
+  cest: '1.0'

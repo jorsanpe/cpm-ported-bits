@@ -2,4 +2,6 @@ name: "inih"
 description: "inih (INI Not Invented Here)"
 version: "1.0"
 packages:
-    inih:
+  inih:
+test_bits:
+  cest: '1.0'
