@@ -1,0 +1,6 @@
+name: boost-algorithm
+version: '1.0'
+packages:
+    boost:
+test_bits:
+    cest: '1.0'
