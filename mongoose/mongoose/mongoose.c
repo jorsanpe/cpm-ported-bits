@@ -7085,6 +7085,8 @@ const char *mg_status_message(int status_code) {
       return "Forbidden";
     case 404:
       return "Not Found";
+    case 409:
+      return "Conflict";
     case 416:
       return "Requested Range Not Satisfiable";
     case 418:
