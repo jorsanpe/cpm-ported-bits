@@ -1,5 +1,5 @@
 name: boost-program-options
-version: '1.0'
+version: '1.73'
 packages:
     boost:
 test_bits:
