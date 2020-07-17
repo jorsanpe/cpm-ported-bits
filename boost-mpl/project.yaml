@@ -1,0 +1,4 @@
+name: boost-mpl
+version: '1.73'
+packages:
+    boost:
