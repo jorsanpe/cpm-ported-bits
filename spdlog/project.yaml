@@ -1,10 +1,11 @@
 name: "spdlog"
 description: "Very fast, header only, C++ logging library"
 version: "1.6.1"
-packages:
-  spdlog:
-    cflags: ['-DSPDLOG_COMPILED_LIB']
-link_options:
+build:
+  packages:
+    spdlog:
+      cflags: ['-DSPDLOG_COMPILED_LIB']
   libraries: ['pthread']
-test_bits:
-  cest: '1.0'
+test:
+  bits:
+    cest: '1.0'

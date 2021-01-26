@@ -5,7 +5,7 @@
 
 
 describe("BLAKE3 hashing function", []() {
-    it ("hases values", []() {
+    it ("hashes values", []() {
         blake3_hasher hasher;
         char input[] = "An input";
         uint8_t output[BLAKE3_OUT_LEN];

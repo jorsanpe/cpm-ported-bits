@@ -1,10 +1,13 @@
 name: 'blake3'
 version: '1.0'
-packages:
-  blake3:
-    cflags:
-      - -DBLAKE3_NO_AVX2
-      - -DBLAKE3_NO_AVX512
-      - -DBLAKE3_NO_SSE41
-test_bits:
-  cest: '1.0'
+build:
+  packages:
+    blake3:
+      cflags:
+        - -DBLAKE3_NO_AVX2
+        - -DBLAKE3_NO_AVX512
+        - -DBLAKE3_NO_SSE41
+  bits:
+test:
+  bits:
+    cest: '1.0'

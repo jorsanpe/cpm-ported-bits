@@ -1,7 +1,10 @@
 name: 'sqlite3'
+description: ''
 version: '3.32.3'
-packages:
-  sqlite3:
-    cflags: ['-DSQLITE_MUTEX_NOOP', '-DSQLITE_OMIT_LOAD_EXTENSION']
-test_bits:
-  cest: '1.0'
+build:
+  packages:
+    sqlite3:
+      cflags: ['-DSQLITE_MUTEX_NOOP', '-DSQLITE_OMIT_LOAD_EXTENSION']
+test:
+  bits:
+    cest: '1.0'
