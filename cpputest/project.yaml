@@ -1,0 +1,16 @@
+name: 'cpputest'
+version: '1.0'
+build:
+  packages:
+    cpputest/CppUTest:
+    cpputest/CppUTestExt:
+  bits:
+test:
+  packages:
+    tests/helpers:
+targets:
+  default:
+    main: 'main.cpp'
+    build:
+      packages:
+        cpputest/Platforms/Gcc:
