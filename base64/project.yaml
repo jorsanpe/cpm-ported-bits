@@ -1,7 +1,9 @@
 name: 'base64'
-description: 'Base64 encoding/decoding library'
 version: '1.0'
-packages:
-  base64:
-test_bits:
-  cest: '1.0'
+build:
+  packages:
+    base64:
+  bits:
+test:
+  bits:
+    cest: '1.0'
